@@ -1,0 +1,27 @@
+.card {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    padding: 16px;
+}
+
+.image {
+    aspect-ratio: 1;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    margin: 0;
+    border-radius: 8px;
+}
+
+.name {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    color: #f9faff;
+    margin: 16px 0 0;
+}
+
+.button {
+    margin-top: 16px;
+}

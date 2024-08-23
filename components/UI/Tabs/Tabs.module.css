@@ -1,0 +1,29 @@
+.tabs {
+    display: flex;
+    gap: 8px;
+}
+
+.tab {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    width: 150px;
+    height: 40px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 120%;
+    text-align: center;
+    color: #fff;
+    transition: .2s ease-in-out;
+}
+
+.tab:hover, .tab_active {
+    border-color: #35c31e;
+    color: #35c31e;
+}
+
+@media (max-width: 768px) {
+    .tab {
+        width: 110px;
+        height: 35px;
+    }
+}

@@ -1,0 +1,58 @@
+.banner {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    padding: 64px 513px 64px 32px;
+    margin-top: 64px;
+    background: url('/images/banner-bg.png') center no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 117%;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.image {
+    position: absolute;
+    right: 84px;
+    bottom: 0;
+}
+
+@media (max-width: 1230px) {
+    .title {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 900px) {
+    .banner {
+        padding: 64px 32px;
+    }
+
+    .title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 117%;
+        text-transform: uppercase;
+        color: #fff;
+    }
+
+    .image {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .banner {
+        margin-top: 30px;
+        padding: 32px 16px;
+    }
+
+    .title {
+        font-size: 24px;
+    }
+}

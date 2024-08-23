@@ -1,0 +1,41 @@
+.card {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    padding: 16px;
+    background-size: cover;
+    background-position: center;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #f9faff;
+    margin: 0;
+}
+
+.value {
+    margin: 16px 0 0;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 117%;
+    color: #fff;
+}
+
+body .tooltip {
+    border-radius: 8px;
+    padding: 8px 16px;
+    background: #3d3d3d;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    color: #fff;
+    min-width: 84px;
+    max-width: 264px;
+}

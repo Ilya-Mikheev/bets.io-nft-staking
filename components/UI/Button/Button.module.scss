@@ -1,0 +1,29 @@
+.button {
+    border-radius: 8px;
+    min-width: 150px;
+    height: 40px;
+    background: #35c31e;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 120%;
+    text-align: center;
+    color: #fff;
+    transition: .2s ease-in-out;
+
+    &:hover {
+        background: darken(#35c31e, 10);
+    }
+}
+
+.button_style_border {
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+    &:hover {
+        background: #35c31e;
+    }
+}
+
+.button_fullWidth {
+    width: 100%;
+}

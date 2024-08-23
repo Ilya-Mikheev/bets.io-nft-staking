@@ -1,0 +1,51 @@
+.nfts {
+    margin-top: 60px;
+}
+
+.tabsContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.items {
+    margin-top: 32px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    gap: 14px;
+}
+
+.stakeAllButtonMobile {
+    display: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+@media (max-width: 768px) {
+    .stakeAllButtonMobile {
+        display: block;
+        height: 35px;
+        min-width: 110px;
+    }
+
+    .stakeAllButton {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .nfts {
+        margin-top: 40px;
+    }
+
+    .tabsContainer {
+        margin-top: 30px;
+    }
+}
